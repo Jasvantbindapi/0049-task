@@ -77,9 +77,8 @@
     {
         $first = $_POST['first_name'];
         $last =  $_POST['last_name'];
-        $mobile = $_POST['mobile'];
         
-        echo "<h2>Hello $first $last $mobile !Greeting from BindAPI.</h2>"; 
+        echo "<h2>Hello $first $last !Greeting from BindAPI.</h2>"; 
     }
 ?>
 </body>
