@@ -5,7 +5,7 @@
         $last =  $_POST['last_name'];
         $mobile = $_POST['mobile'];
 
-        echo "<h2>WELCOME</h2>"; 
+        echo "<h2>Success</h2>"; 
     }
 ?>
 
@@ -72,5 +72,15 @@
             </div>
         </div>
     </div>
+    <?php
+    if(isset($_POST['submit']))
+    {
+        $first = $_POST['first_name'];
+        $last =  $_POST['last_name'];
+        $mobile = $_POST['mobile'];
+        
+        echo "<h2>Hello $first $last $mobile !Greeting from BindAPI.</h2>"; 
+    }
+?>
 </body>
 </html>
